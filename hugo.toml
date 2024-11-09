@@ -1,0 +1,29 @@
+baseURL = 'https://yakshavefx.dev/'
+languageCode = 'en-us'
+title = 'YakShaveFx'
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+description = "Some libraries, tools and whatnot, to help with projects usual yak shaving"
+images = ["logo.png"]
+author = "João Antunes"
+custom_css = ["css/overrides.css"]
+
+[params.profileMode]
+enabled = true # needs to be explicitly set
+title = "YakShaveFx"
+subtitle = "Some libraries, tools and whatnot, to help with projects usual yak shaving"
+# subtitle: "This is subtitle"
+imageUrl = "logo-128x128.png"
+imageWidth = 128
+imageHeight= 128
+# imageTitle: my image
+
+[[params.profileMode.buttons]]
+name = "OutboxKit"
+url = "https://outboxkit.yakshavefx.dev"
+
+[[params.profileMode.buttons]]
+name = "KafkaClientTurbocharger (PoC)"
+url = "https://github.com/YakShaveFx/YakShaveFx.KafkaClientTurbocharger"
