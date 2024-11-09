@@ -27,3 +27,7 @@ url = "https://outboxkit.yakshavefx.dev"
 [[params.profileMode.buttons]]
 name = "KafkaClientTurbocharger (PoC)"
 url = "https://github.com/YakShaveFx/YakShaveFx.KafkaClientTurbocharger"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yakshavefx"
